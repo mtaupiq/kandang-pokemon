@@ -1,10 +1,11 @@
 import React from 'react';
+import { Container } from '../elements/elements';
 
 export function PageNotFound() {
     
     return (
-        <div>
+        <Container>
             <p>404 Page Not Found!</p>
-        </div>
+        </Container>
     )
 }
